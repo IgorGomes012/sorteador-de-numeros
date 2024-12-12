@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" />
-  <title>Document</title>
-</head>
-<body>
-  <h1>sorteador de numeros</h1>
-  <script src="/scripts.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2>numbers</h2>
+    </header>
+    <main>
+      <div>
+        <h4>Online - gratuito</h4>
+        <h1>Sorteador de números</h1>
+        <p class="colorP">Como funciona o sorteador de números?</p>
+        <p>
+          O sorteador utiliza um algoritmo de geração aleatória para criar
+          números dentro do intervalo especificado pelo usuário.
+        </p>
+        <br />
+        <p class="colorP">Posso escolher o intervalo dos números?</p>
+        <p>
+          Sim, você pode definir os valores mínimo e máximo para o intervalo dos
+          números sorteados.
+        </p>
+      </div>
+      <div>
+        <h2>Quero sortear:</h2>
+        <p class="sizeParagraphoSort">defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+        <div class="sortContainer">
+           <span>números</span>
+           <span>DE</span>
+           <span>DE</span>
+           <div><input type="text" id="numberSort"></div>
+           <div><input type="text" id="minimalNumberSort"></div>
+           <div><input type="text" id="maximalNumberSort"></div>
+        </div>
+        <input type="checkbox">
+        <span>Não repetir número</span>
+        <button><img src="/img/Property 1=1.png" alt=""></button>
+      </div>
+    </main>
+    <script src="/scripts.js"></script>
+  </body>
 </html>
